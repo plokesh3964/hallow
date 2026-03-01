@@ -14,7 +14,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'dev-secret-key-change-in-produ
 DEBUG = os.environ.get('DEBUG', 'True').lower() == 'true'
 
 # Update this with your actual Render URL (e.g., 'your-app.onrender.com')
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['srv-d6i6p0paae7s73cb6p40']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
