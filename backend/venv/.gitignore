@@ -1,0 +1,7 @@
+# Created by venv
+.venv/
+backend/.venv/
+.env
+backend/.env
+*.sqlite3
+backend/*.sqlite3
